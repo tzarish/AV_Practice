@@ -1,0 +1,87 @@
+/* 
+  TODO: Change the colors, fonts, and spacing to match your theme.
+  Your theme should feel intentional, not random.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* 
+  TODO: Style your header.
+  Make the title easy to read.
+*/
+
+header {
+  margin-bottom: 20px;
+}
+
+/* 
+  TODO: Use flexbox or CSS grid on main.
+  Goal: organize both media cards neatly on the page.
+*/
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* 
+  TODO: Style each media card.
+  Think of each card like a small media player.
+*/
+
+.media-card {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+/* 
+  TODO: Make sure the video and audio do not overflow their card.
+*/
+
+video,
+audio {
+  margin: 20px auto;
+  display: block;
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 
+  TODO: Style your buttons.
+  Make them large enough to click easily.
+*/
+
+button {
+  width: 80%;
+  font-size: 1.5em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* 
+  OPTIONAL CHALLENGE:
+  Create an active class.
+  Use JavaScript to add this class when a media pair is playing.
+*/
+
+.active {
+  border-color: black;
+  box-shadow: 0 0 15px gray;
+}
+
+footer {
+  margin-top: 20px;
+}

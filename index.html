@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV Practice: City Vibes</title>
+  </head>
+  <body>
+
+    <header>
+  <h1>HTML5 A/V Practice: <span>City Vibes</span></h1>
+</header>
+
+<main>
+  <!-- 
+    TODO: Create TWO media cards.
+    Each card should have:
+    1. one video
+    2. one audio clip
+    3. one button that plays both together
+    4. optional: one pause button or reset button
+  -->
+
+  <section class="media-card">
+    <video id="video-one" controls>
+      <source src="./AV/city_vibes.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- 
+      TODO: This button should play video-one and audio-one at the same time.
+      In JavaScript, save this button in a variable called button1.
+    -->
+    <button id="button-one">Play Pair 1</button>
+    <button id="button-one-reset">Reset Pair 1</button>
+
+    <audio id="audio-one" controls>
+      <source src="./AV/dramatic_audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+
+
+  <section class="media-card">
+
+    <video id="video-two" controls>
+      <source src="./AV/flowers.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- 
+      TODO: This button should play video-two and audio-two at the same time.
+      In JavaScript, save this button in a variable called button2.
+    -->
+    <button id="button-two">Play Pair 2</button>
+    <button id="button-two-reset">Reset Pair 2</button>
+
+    <!-- OPTIONAL CHALLENGE: Add a pause button for Pair 2. -->
+    <!-- <button id="pause-two">Pause Pair 2</button> -->
+
+    <!-- TODO: Add your second audio source. -->
+    <audio id="audio-two" controls>
+      <source src="./AV/guitar_audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+</main>
+
+<footer>
+  <p>Yours, Rishabh Rohira</p>
+</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
